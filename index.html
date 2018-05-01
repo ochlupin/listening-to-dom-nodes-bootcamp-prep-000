@@ -14,27 +14,10 @@
   <body>
     <main id="main">My ID is "main"!</main>
     <script>
-    const input = document.querySelector('input')
-    input.addEventListener('keydown', function(e) {
-      if (e.which === 71) {
-        return e.preventDefault()
-      }
-    })
-    })
-    </script>
-    <script>
-    const input = document.querySelector('input')
-    input.addEventListener('keydown', function(e) {
-      console.log(e.which)
-    })
-    </script>
 
-    <script>
-    const input = document.querySelector('input')
-    input.addEventListener('keydown', function(e) {
-      if (e.which === 71) {
-        return e.preventDefault()
-      }
+    const main = document.getElementById('main')
+    main.addEventListener('click', function(event) {
+      alert('I was clicked!')
     })
     </script>
     <br />
